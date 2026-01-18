@@ -7,7 +7,7 @@ spark = SparkSession.builder \
     .appName("Advanced Credit Card Transactions Processor") \
     .getOrCreate()
 
-json_file_path = 'gs://credit-card-data-analysis/transactions/transactions_*.json'
+json_file_path = 'gs://credit-card-data-analysis-2026/transactions/transactions_*.json'
 
 # Define BigQuery Dataset & Table Names
 BQ_PROJECT_ID = "electric-totem-476812-e6"
